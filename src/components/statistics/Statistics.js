@@ -5,8 +5,7 @@ import PropTypes from 'prop-types';
 export const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
-      {title ? <h2 className={css.title}>{title}</h2> : false}
-
+      {title && <h2 className={css.title}>{title}</h2>}
       <ul className={clsx(css['statList'], !title && css['statListPadding'])}>
         {stats.map(stat => (
           <li key={stat.id} className={css.item}>

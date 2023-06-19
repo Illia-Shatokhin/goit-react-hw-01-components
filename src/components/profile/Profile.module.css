@@ -8,10 +8,12 @@
 
   border: 1px solid rgb(177, 204, 255);
 }
+
 .description {
   text-align: center;
   padding: 15px;
 }
+
 .avatar {
   width: 180px;
   height: 180px;
@@ -19,6 +21,7 @@
   border-radius: 50%;
   margin: 0 auto 16px;
 }
+
 .name {
   font-style: normal;
   font-weight: 500;
@@ -27,6 +30,7 @@
   color: #111111;
   margin-bottom: 16px;
 }
+
 .tag {
   font-style: normal;
   font-weight: 400;
@@ -35,9 +39,11 @@
   color: #7a7a7a;
   margin-bottom: 4px;
 }
+
 .location {
   composes: tag;
 }
+
 .stats {
   list-style: none;
   display: flex;
@@ -58,6 +64,7 @@
 .label {
   composes: tag;
 }
+
 .quantity {
   composes: name;
 }

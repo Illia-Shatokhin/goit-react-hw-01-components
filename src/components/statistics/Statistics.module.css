@@ -8,6 +8,7 @@
   text-align: center;
   padding-top: 15px;
 }
+
 .title {
   font-style: normal;
   font-weight: 500;
@@ -16,11 +17,13 @@
   color: #7a7a7a;
   margin-bottom: 15px;
 }
+
 .statList {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
+
 .item {
   flex-basis: 59px;
   display: flex;
@@ -32,10 +35,12 @@
   border-left: none;
   background-color: brown;
 }
+
 .item:first-child {
   flex-basis: 58px;
   border-left: 1px solid black;
 }
+
 .label {
   font-style: normal;
   font-weight: 400;
@@ -44,6 +49,7 @@
   align-items: center;
   color: #f8f8f8;
 }
+
 .percentage {
   font-style: normal;
   font-weight: 500;
@@ -51,6 +57,7 @@
   line-height: 23px;
   color: #ffffff;
 }
+
 .statListPadding {
   padding-top: 42px;
 }
